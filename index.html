@@ -13,7 +13,8 @@
     />
   </head>
   <body>
-    <header>
+    <!-- header container start -->
+    <header class="container">
       <nav class="header-nav">
         <a class="logo" href="#">
           <span class="logo-circle"></span>
@@ -32,15 +33,17 @@
           Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
           lacus platea orci vel elit blandit facilisis
         </p>
-        <button class="btn btn-primary">Join Now</button>
+        <button class="btn btn-primary">Join now</button>
         <div class="hero-section-image-container">
           <img src="images/hero-section1.png" alt="Hero Section 1" />
           <img src="images/hero-section2.png" alt="Hero Section 2" />
         </div>
       </section>
     </header>
+    <!-- header container end -->
 
-    <main>
+    <main class="container">
+      <!-- wellbeing-section start -->
       <section class="wellbeing-section">
         <div class="wellbeing-content">
           <h2>Wellbeing is welldoing</h2>
@@ -62,8 +65,14 @@
             </div>
           </div>
         </div>
-        <img src="images/meditate-woman.png" alt="Woman Meditating" />
+        <img
+          class="bg"
+          src="images/meditate-woman.png"
+          alt="Woman Meditating"
+        />
       </section>
+      <!-- wellbeing-section end -->
+      <!-- fresh-section start -->
       <section class="fresh-section">
         <div class="fresh-section-left">
           <img src="images/hand-earth.png" alt="Hand Earth" />
@@ -101,7 +110,8 @@
           </ul>
         </div>
       </section>
-
+      <!-- fresh-section end -->
+      <!-- you-section start -->
       <section class="you-section">
         <div class="you-image-container">
           <img src="images/pineapple.png" alt="Pineapple Image" />
@@ -127,7 +137,8 @@
           </div>
         </div>
       </section>
-
+      <!-- you-section end -->
+      <!-- welldoing-section start -->
       <section class="welldoing-section">
         <div class="weldoing-bg"></div>
         <div class="weldoing-content">
@@ -141,28 +152,31 @@
           <button class="btn btn-secondary">Join Now</button>
         </div>
         <div class="welldoing-content-bottom">
-          <div class="welldoing-content-bottom-item">
-            <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
-            <p>Plant Protective</p>
-          </div>
-          <div class="welldoing-content-bottom-item">
-            <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
-            <p>Plant Protective</p>
-          </div>
-          <div class="welldoing-content-bottom-item">
-            <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
-            <p>Plant Protective</p>
-          </div>
-          <div class="welldoing-content-bottom-item">
-            <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
-            <p>Plant Protective</p>
+          <div class="inner">
+            <div class="welldoing-content-bottom-item">
+              <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
+              <p>Plant Protective</p>
+            </div>
+            <div class="welldoing-content-bottom-item">
+              <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
+              <p>Plant Protective</p>
+            </div>
+            <div class="welldoing-content-bottom-item">
+              <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
+              <p>Plant Protective</p>
+            </div>
+            <div class="welldoing-content-bottom-item">
+              <img src="images/two-leaf-icon.svg" alt="Two Leaf Icon" />
+              <p>Plant Protective</p>
+            </div>
           </div>
         </div>
       </section>
+      <!-- welldoing-section end -->
     </main>
-
+    <!-- footer start -->
     <footer>
-      <nav class="footer-nav">
+      <nav class="container footer-nav">
         <a class="logo" href="#">
           <span class="logo-circle"></span>
           <span class="logo-text">Logo</span>
@@ -187,6 +201,7 @@
         </div>
       </nav>
     </footer>
+    <!-- footer end -->
 
     <script src="main.js"></script>
   </body>
